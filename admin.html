@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Welcome admin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="shortcut icon" href="favicon_icon.png" type="image/png">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+		<div id="preloader">
+             <div id="status">&nbsp;</div>
+        </div>
+		<div class="header_area">
+            <div class="admin_back"></div>
+                    <div class="back_color"> 
+                            <div class="fast_logo">
+                                <img src="img/logo.png" alt="">
+                            </div>
+                            <div class="admin_searce">
+                                <input type="text" name="form1" placeholder="search">
+                                <button type="submit" class="btn_admin"><i class="fa fa-search search_logo" aria-hidden="true"></i></button>
+                                <i class="fa fa-user user_admin" aria-hidden="true"></i>
+                                <p class="user_admin_name">Mashud rana</p>
+                            </div>      
+                    </div>  
+        </div>
+
+        <div class="admin_navbar">
+            <ul>
+                <li><a href="admin.html">Departments</a></li>
+
+                <li><a href="employes.html">Employees</a></li>
+                <li><a href="salari.html">Salaries</a></li>
+                <li><a href="titles.html">Titles</a></li>
+            </ul>
+        </div>
+
+        <div class="emploues_table">
+            <h4>About Departments</h4>
+            <form action="" method="post">
+                <table border="1">
+                    <tr>
+                        <th>dept_no</th>
+                        <th>dept_name</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>cse</td>
+                        <td><a href="#">edit</a>&nbsp<a href="">delete</a></td>
+
+                        
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>EEE</td>
+                        <td><a href="#">edit</a>&nbsp<a href="">delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>MBA</td>
+                        <td><a href="#">edit</a>&nbsp<a href="">delete</a></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>BBA</td>
+                        <td><a href="#">edit</a>&nbsp<a href="">delete</a></td>
+                        
+                    </tr>
+                     <tr>
+                        <td>05</td>
+                        <td>Accounting</td>
+                        <td><a href="#">edit</a>&nbsp<a href="">delete</a></td>
+                        
+                    </tr>
+                </table>
+            </form>
+        </div>
+		
+		
+		
+		
+        
+		<script src="js/vendor/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<script src="js/jquery.smoothscroll.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+    //<![CDATA[
+        $(window).on('load', function() { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({'overflow':'visible'});
+          })
+    //]]>
+</script>
+
+    </body>
+</html>
